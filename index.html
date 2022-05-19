@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤓</text></svg>"
+    />
+    <link href="/style.css" rel="stylesheet" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div class="previous-display" data-previous-operand>0</div>
+        <div class="current-display" data-current-operand>0</div>
+      </div>
+
+      <div class="calculator__keys">
+        <button class="key--operator" data-operation>+</button>
+        <button class="key--operator" data-operation>-</button>
+        <button class="key--operator" data-operation>x</button>
+        <button class="key--operator" data-operation>÷</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-number>0</button>
+        <button data-number>.</button>
+        <button data-all-clear>AC</button>
+        <button class="key-delete" data-delete>DEL</button>
+        <button class="key--equal" data-equals>=</button>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
